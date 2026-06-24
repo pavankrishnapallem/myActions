@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - id: get_version
-        run: echo "version=1.0.0" >> $GITHUB_OUTPUT  
+        run: echo "version=1.6.0" >> $GITHUB_OUTPUT  
 
   use:
     runs-on: ubuntu-latest
